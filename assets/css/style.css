@@ -1,29 +1,24 @@
 .header {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
     font-size:large;
     background-color: lightblue;
     flex-direction: row;
 }
-.nav{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    font-size:small;
+.header h1{
+    width:45%;
 }
-.cat{
-    height:200px;
-    width:200px;
-    margin-bottom: 25px;
+.nav{
+    width: 50%;
+    list-style-type: none;
+    font-size:small;
 }
 .main {
 background-color: azure;
 font-size:large;
 }
 .picture {
-    height:400px;
-    width:50%;
+    width:35%;
     margin-bottom:25px;
 }
 .footer {
@@ -33,4 +28,19 @@ flex-wrap: wrap;
 }
 .nav .ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    justify-content: space-evenly;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section h2 {
+    width:15%;
+}
+.section p {
+    width:80%;
 }
